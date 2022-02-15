@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 import EnderecoPage from '../support/page-objects/endereco.page'
-const dadosEndereco = require('../fixtures/enedereco.json')
+const dadosEndereco = require('../fixtures/endereco.json')
 describe('Funcionalidade Endereços - Faturamente e Entrega', () => {
     beforeEach(() => {
         cy.visit('minha-conta')
